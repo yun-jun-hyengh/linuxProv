@@ -210,7 +210,7 @@ public class BoardController {
 		}
 		
 		try {
-			changeOwnerAndGroup(dirPath, "tomcat", "tomcat");
+			changeOwnerAndGroup(dirPath, "root", "root");
 		} catch (IOException e) {
 			// TODO: handle exception
 			e.printStackTrace();
