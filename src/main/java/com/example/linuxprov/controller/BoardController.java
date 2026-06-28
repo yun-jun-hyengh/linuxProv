@@ -43,7 +43,7 @@ public class BoardController {
 	//private static final String UPLOAD_DIR = "C:/upload/";
 	
 	// 리눅스 
-	private static final String UPLOAD_DIR = "/opt/tomcat9/upload/";
+	private static final String UPLOAD_DIR = "/opt/upload/";
 	
 	@GetMapping("/boardfile")
 	public String boardList(Model model) { // 여기 한번 수정 
